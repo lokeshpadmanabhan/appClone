@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBX0nQEoVfh41I1JJlwRhbWp0q5wqJBeYc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>769164486392</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>lc.com.appClone</string>
+	<key>PROJECT_ID</key>
+	<string>clone-project-lc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>clone-project-lc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:769164486392:ios:b382ea60043b5cb422bd0d</string>
+	<key>DATABASE_URL</key>
+	<string>https://clone-project-lc-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

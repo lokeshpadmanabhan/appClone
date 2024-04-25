@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "64867D04-250F-411B-A826-64F3854D1BE7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76B86055-A535-4B5C-994D-461AEF72DC20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "appClone/controllers/OtherTabs/Onboarding/RegistrationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "didtapregister()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "76B86055-A535-4B5C-994D-461AEF72DC20 - 5b0aa0880449822a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "appClone.RegistrationViewController.didtapregister() -&gt; ()"
+                  moduleName = "appClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lokeshcheenu/Desktop/appClone/appClone/controllers/OtherTabs/Onboarding/RegistrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110">
+               </Location>
+               <Location
+                  uuid = "76B86055-A535-4B5C-994D-461AEF72DC20 - 5b0aa0880449822a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "appClone.RegistrationViewController.didtapregister() -&gt; ()"
+                  moduleName = "appClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lokeshcheenu/Desktop/appClone/appClone/controllers/OtherTabs/Onboarding/RegistrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEB5FD9E-4D0C-43D2-B736-F93BD5360BFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "appClone/controllers/OtherTabs/General/EditProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

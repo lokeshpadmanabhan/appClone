@@ -1,0 +1,6 @@
+framework module Pods_appClone {
+  umbrella header "Pods-appClone-umbrella.h"
+
+  export *
+  module * { export * }
+}

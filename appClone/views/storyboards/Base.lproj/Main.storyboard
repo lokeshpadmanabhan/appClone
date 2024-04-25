@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HpV-Z4-G8v">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -16,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="labelColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="lbh-7a-tcs" kind="relationship" relationship="viewControllers" id="Rg7-0U-lol"/>
@@ -34,10 +35,11 @@
         <scene sceneID="rJJ-KY-qXM">
             <objects>
                 <navigationController id="Dga-1m-PIk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="globe" catalog="system" id="OWd-tZ-1lu"/>
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="OWd-tZ-1lu"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="E30-Uy-6nt">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="labelColor"/>
                     </navigationBar>
                     <connections>
                         <segue destination="4un-h4-AQQ" kind="relationship" relationship="rootViewController" id="1Ro-82-OsO"/>
@@ -51,10 +53,11 @@
         <scene sceneID="JXB-bZ-rqT">
             <objects>
                 <navigationController id="8nC-ar-FA7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="brain.head.profile" catalog="system" id="9vd-ry-n7N"/>
+                    <tabBarItem key="tabBarItem" title="" image="person.crop.circle" catalog="system" id="9vd-ry-n7N"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ia4-3s-V94">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="labelColor"/>
                     </navigationBar>
                     <connections>
                         <segue destination="0Sa-wX-6m7" kind="relationship" relationship="rootViewController" id="MSG-VL-D1C"/>
@@ -72,7 +75,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zXe-cy-caF">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="labelColor"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sDY-JR-VTN">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="AJq-1w-eQH" kind="relationship" relationship="rootViewController" id="hqn-05-FLF"/>
                     </connections>
@@ -89,6 +96,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jNK-Q9-uFk">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="labelColor"/>
                     </navigationBar>
                     <connections>
                         <segue destination="fbU-3W-PFd" kind="relationship" relationship="rootViewController" id="Pnz-QR-C7p"/>
@@ -122,6 +130,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cdA-9u-N2o">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="labelColor"/>
                     </navigationBar>
                     <connections>
                         <segue destination="yPl-yc-NhS" kind="relationship" relationship="rootViewController" id="r1S-OS-Dgq"/>
@@ -198,10 +207,13 @@
     </scenes>
     <resources>
         <image name="bell.badge" catalog="system" width="117" height="128"/>
-        <image name="brain.head.profile" catalog="system" width="120" height="128"/>
         <image name="camera" catalog="system" width="128" height="93"/>
-        <image name="globe" catalog="system" width="128" height="123"/>
         <image name="house" catalog="system" width="128" height="104"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
